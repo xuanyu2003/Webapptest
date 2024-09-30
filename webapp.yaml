@@ -1,0 +1,5 @@
+steps:
+  - run: |
+      sudo apt-get install -y nodejs npm
+      npm install
+      npm start
